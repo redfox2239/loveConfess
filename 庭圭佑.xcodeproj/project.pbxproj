@@ -13,6 +13,7 @@
 		7F1675671ABC369D000B640B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1675661ABC369D000B640B /* Images.xcassets */; };
 		7F16756A1ABC369D000B640B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1675681ABC369D000B640B /* LaunchScreen.xib */; };
 		7F1675761ABC369D000B640B /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1675751ABC369D000B640B /* ___Tests.swift */; };
+		7F1675801ABC3FFB000B640B /* lovekuuma.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F16757F1ABC3FFB000B640B /* lovekuuma.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7F16756F1ABC369D000B640B /* 庭圭佑Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "庭圭佑Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1675741ABC369D000B640B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F1675751ABC369D000B640B /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		7F16757F1ABC3FFB000B640B /* lovekuuma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lovekuuma.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		7F16755D1ABC369D000B640B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7F16757F1ABC3FFB000B640B /* lovekuuma.png */,
 				7F16755E1ABC369D000B640B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,6 +159,7 @@
 		7F1675521ABC369D000B640B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "あやの";
 				TargetAttributes = {
@@ -193,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F1675651ABC369D000B640B /* Main.storyboard in Resources */,
+				7F1675801ABC3FFB000B640B /* lovekuuma.png in Resources */,
 				7F16756A1ABC369D000B640B /* LaunchScreen.xib in Resources */,
 				7F1675671ABC369D000B640B /* Images.xcassets in Resources */,
 			);
@@ -405,6 +410,7 @@
 				7F16757B1ABC369D000B640B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F16757C1ABC369D000B640B /* Build configuration list for PBXNativeTarget "庭圭佑Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +419,7 @@
 				7F16757E1ABC369D000B640B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
